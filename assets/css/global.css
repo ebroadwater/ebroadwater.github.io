@@ -150,3 +150,30 @@ div.lazy {
         transition: none;
     }
 }
+.media {
+    padding-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+.media-body {
+    padding-left: 10px;
+    min-width: 0;
+    width: 100%;
+    flex: 1 1 auto;
+}
+.media img{
+    width: 50px;
+    flex-shrink: 0;
+}
+.position-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+    width: 100%;
+    column-gap: 10px;
+}
+.edu-date {
+    text-align: right;
+    white-space: nowrap;
+}
+
